@@ -68,6 +68,12 @@ pipelines = (
 		name = "Camera pipeline.";
 		bin  = "@CONF_PIPELINE_BINARY_PATH@/g-camera-pipeline";
 		priority = 4;
+	},
+	{
+		type = "record";
+		name = "Record pipeline.";
+		bin  = "@CONF_PIPELINE_BINARY_PATH@/g-record-pipeline";
+		priority = 4;
 	}
 );
 
