@@ -1,4 +1,4 @@
-# Copyright (c) 2018-2021 LG Electronics, Inc.
+# Copyright (c) 2018-2024 LG Electronics, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,8 +18,6 @@ cmake_minimum_required(VERSION 2.8.7)
 include(webOS/webOS)
 webos_modules_init(1 1 1 QUALIFIER RC7)
 webos_component(1 0 0)
-webos_distro_dep()
-webos_distro_variant_dep()
 
 SET(RESOURCE_CONFIG_VERSION "1.0")
 SET(CODEC_CONFIG_VERSION "1.0")
